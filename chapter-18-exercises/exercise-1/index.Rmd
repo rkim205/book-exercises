@@ -1,0 +1,19 @@
+---
+title: "_Movie Review_"
+author: "Ryan Kim"
+date: "2/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("exercise.R")
+
+```
+
+```{r. echo = FALSE}
+headline <- movie_info$headline
+summary <- movie_info[[2]]
+```
+## `r headline`
+> `r summary`
